@@ -1,4 +1,4 @@
-##Simple basic siteswap diagram generator in java by Tiago Batista Cardoso.
+## Simple basic siteswap diagram generator in java by Tiago Batista Cardoso.
 
 To execute, simply run bin/siteswap_visualiser (UNIX)
 or bin/siteswap_visualiser.bat (Warning: Must have JAVA_HOME variable in PATH.) (Windows).
