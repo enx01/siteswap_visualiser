@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tiago.siteswap.visualiser.siteswap_visualiser.diagram.DiagramController">
+<children>
+   <Pane>
+      <children>
+         <AnchorPane fx:id="diagramPane" maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="640.0">
+            <children>
+               <Line fx:id="baseLine" endX="435.0" endY="9.0" layoutX="138.0" layoutY="251.0" startX="-71.0" startY="9.0" />
+                  <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" text="Menu" onAction="#returnToMenu">
+                     <font>
+                        <Font name="CaskaydiaCove NF Regular" size="11.0" />
+                     </font>
+                  </Button>
+            </children>
+         </AnchorPane>
+      </children>
+   </Pane>
+</children>
+</VBox>
